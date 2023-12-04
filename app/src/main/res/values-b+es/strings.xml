@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DrakeQuizAppNN</string>
+    <string name="q1text">¿Drake mide 5\'10?</string>
+    <string name="q2text">Drake nació en Toronto Canadá</string>
+    <string name="q3text">El nombre de Drake es Aubrey Garrett.</string>
+    <string name="q4text">Drake gana fama como jugador de la NBA.</string>
+    <string name="q5text">Drake es conocido por su participación en la música.</string>
+    <string name="q6text">El sello discográfico de Drake es OVO.</string>
+    <string name="q7text">OVO significa Octubre muy propio.</string>
+    <string name="q8text">El verdadero padre de Drake es un músico famoso.</string>
+    <string name="q9text">Drake tiene un tatuaje de un micrófono. </string>
+    <string name="q10text">Drake tiene el récord de más canciones registradas por un artista en la historia del Billboard Hot 100.</string>
+    <string name="trueBTN">VERDADERO</string>
+    <string name="falseBTN">FALSO</string>
+    <string name="scoreBTN">Haga clic para mostrar el resultado final</string>
+    <string name="nextBTN">Próxima pregunta</string>
+    <string name="correctMSG">CORRECTO!</string>
+    <string name="wrongMSG">EQUIVOCADO!</string>
+    <string name="emailBTN">Enviar correo electrónico</string>
+
+
+
+</resources>

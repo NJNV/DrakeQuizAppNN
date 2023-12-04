@@ -14,8 +14,18 @@
         android:textSize="45sp"/>
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailBTN"
+        android:backgroundTint="@color/babyBlue"
+        android:text="@string/emailBTN" />
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
 
 
 

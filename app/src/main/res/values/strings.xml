@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">DrakeQuizAppNN</string>
+    <string name="q1text">Drake  is  5\'10 ?</string>
+    <string name="q2text">Drake was born in Toronto Canada.</string>
+    <string name="q3text">Drake name is Aubrey Garrett.</string>
+    <string name="q4text">Drake gain fame as NBA Player."</string>
+    <string name="q5text">Drake is known for his involvement in music.</string>
+    <string name="q6text">Drake record label is OVO.</string>
+    <string name="q7text">OVO stands for Octobers Very Own.</string>
+    <string name="q8text">Drake real father is a famous musician.</string>
+    <string name="q9text">Drake has a tattoo of a microphone.</string>
+    <string name="q10text">Drake holds the record for most songs charted by a artist in history of the Billboard Hot 100.</string>
+    <string name="trueBTN">TRUE</string>
+    <string name="falseBTN">FALSE</string>
+    <string name="scoreBTN">Click to show the end Result</string>
+    <string name="nextBTN">Next Question</string>
+    <string name="correctMSG">CORRECT!</string>
+    <string name="wrongMSG">WRONG!</string>
+    <string name="emailBTN">Send Email</string>
+
+
 </resources>
