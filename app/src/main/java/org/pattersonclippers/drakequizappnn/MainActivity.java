@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button trueBTN, falseBTN, scoreBTN, nextBTN;
     String showAnswer;
     int score, currentIndex;
-    Question q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, currentQ;
+    Question q1, q2, q3, q4, q5, q6, q7, q8, q9, q10,q11,q12,q13,q14,q15, currentQ;
     Question[] questions;
 
 
@@ -43,7 +43,12 @@ public class MainActivity extends AppCompatActivity {
         q8 = new Question(getString(R.string.q8text), false);
         q9 = new Question(getString(R.string.q9text), true);
         q10 = new Question(getString(R.string.q10text), true);
-        questions = new Question[]{q1, q2, q3, q4, q5, q6, q7, q8, q9, q10,};
+        q11 = new Question("Drake was born on October 24,1989.",false);
+        q12 = new Question("Drake has a daughter name Adonis.",false);
+        q13 = new Question("Drake was a voice actor in the movie Ice Age.",true);
+        q14 = new Question("Drake has a partnership with Nike.",true);
+        q15 = new Question("Drake has a fear of flying.",true);
+        questions = new Question[]{q1, q2, q3, q4, q5, q6, q7, q8, q9, q10,q11,q12,q13,q14,q15};
         currentIndex = 0;
         currentQ = questions[currentIndex];
 
@@ -98,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 currentIndex++;
-                if(currentIndex<10) {
+                if(currentIndex<15) {
                     currentQ = questions[currentIndex];
                     questionTV.setText(currentQ.getQText());
                 }

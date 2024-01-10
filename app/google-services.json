@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "752847558105",
+    "firebase_url": "https://highscorenn-default-rtdb.firebaseio.com",
+    "project_id": "highscorenn",
+    "storage_bucket": "highscorenn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752847558105:android:575a0a4c8e79740c9435c8",
+        "android_client_info": {
+          "package_name": "org.pattersonclippers.drakequizappnn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFqJLGVqAKXBhvSKb13oU-qrXIvPGyx3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

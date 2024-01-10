@@ -10,6 +10,11 @@
     <string name="q8text">El verdadero padre de Drake es un músico famoso.</string>
     <string name="q9text">Drake tiene un tatuaje de un micrófono. </string>
     <string name="q10text">Drake tiene el récord de más canciones registradas por un artista en la historia del Billboard Hot 100.</string>
+    <string name="q11text">Drake nació el 24 de octubre de 1989.</string>
+    <string name="q12text">Drake tiene una hija llamada Adonis. </string>
+    <string name="q13text">Drake fue actor de doblaje en la película Ice Age.</string>
+    <string name="q14text">Drake tiene una asociación con Nike. </string>
+    <string name="q15text">Drake tiene miedo de volar.</string>
     <string name="trueBTN">VERDADERO</string>
     <string name="falseBTN">FALSO</string>
     <string name="scoreBTN">Haga clic para mostrar el resultado final</string>

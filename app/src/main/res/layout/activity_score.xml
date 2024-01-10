@@ -13,18 +13,27 @@
         android:text="0"
         android:textSize="45sp"/>
 
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/emailBTN"
+        android:id="@+id/sendFBBTN"
         android:backgroundTint="@color/babyBlue"
-        android:text="@string/emailBTN" />
-
-
+        android:text="Click ME" />
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/showHSBTN"
+        android:backgroundTint="@color/babyBlue"
+        android:text="Show High Score" />
+
+
+
         
 
 

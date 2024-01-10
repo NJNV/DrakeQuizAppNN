@@ -9,14 +9,19 @@
     <string name="q7text">OVO stands for Octobers Very Own.</string>
     <string name="q8text">Drake real father is a famous musician.</string>
     <string name="q9text">Drake has a tattoo of a microphone.</string>
-    <string name="q10text">Drake holds the record for most songs charted by a artist in history of the Billboard Hot 100.</string>
+    <string name="q10text">Drake has the record for most songs charted by a artist in history of the Billboard Hot 100.</string>
+    <string name="q11text">Drake was born on October 24,1989.</string>
+    <string name="q12text">"Drake has a daughter name Adonis.</string>
+    <string name="q13text">Drake was a voice actor in the movie Ice Age.</string>
+    <string name="q14text">Drake has a partnership with Nike.</string>
+    <string name="q15text">Drake has a fear of flying.</string>
     <string name="trueBTN">TRUE</string>
     <string name="falseBTN">FALSE</string>
     <string name="scoreBTN">Click to show the end Result</string>
     <string name="nextBTN">Next Question</string>
     <string name="correctMSG">CORRECT!</string>
-    <string name="wrongMSG">WRONG!</string>
     <string name="emailBTN">Send Email</string>
-
+    /string>
+    <string name="wrongMSG">WRONG!</string>
 
 </resources>

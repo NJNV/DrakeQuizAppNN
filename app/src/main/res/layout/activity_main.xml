@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray"
     android:gravity="center"
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/gray">
-
+    android:orientation="vertical">
 
 
     <TextView
         android:id="@+id/questionTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rotationX="8"
+        android:rotationX="0"
         android:text="@string/q1text"
         android:textColor="@color/orange"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <Space
@@ -29,18 +27,18 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/trueBTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/trueBTN"
-            android:id="@+id/trueBTN"
-            android:backgroundTint="@color/green"/>
+            android:backgroundTint="@color/green"
+            android:text="@string/trueBTN" />
 
         <Button
+            android:id="@+id/falseBTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/falseBTN"
-            android:id="@+id/falseBTN"
-            android:backgroundTint="@color/red"/>
+            android:backgroundTint="@color/red"
+            android:text="@string/falseBTN" />
 
 
     </LinearLayout>
@@ -58,8 +56,6 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/pink"
         android:text="@string/nextBTN" />
-
-
 
 
 </LinearLayout>

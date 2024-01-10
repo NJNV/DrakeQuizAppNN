@@ -7,15 +7,26 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class ScoreActivity extends AppCompatActivity {
 
-    Button emailBTN;
-
+    Button showHSBTN,sendFBBTN;
+    EditText nameET;
     Intent incomingIntent;
     TextView scoreTV;
     int score;
+
+    Highscore hs;
+
+    String name;
+
+    FirebaseDatabase database;
+    DatabaseReference myRef;
 
 
     @Override
@@ -27,7 +38,40 @@ public class ScoreActivity extends AppCompatActivity {
         incomingIntent = getIntent();
         score = incomingIntent.getIntExtra("score",0);
         scoreTV.setText("" + score);
-        emailBTN = (Button) findViewById(R.id.emailBTN);
+        showHSBTN = (Button) findViewById(R.id.showHSBTN);
+        sendFBBTN = (Button) findViewById(R.id.sendFBBTN);
+        nameET = (EditText) findViewById(R.id.nameET);
+        name = "";
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference("message");
+
+        // Write a message to the database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("Highscore");
+
+        sendFBBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+               name = nameET.getText().toString();
+               hs = new Highscore(score,name);
+               String key = myRef.push().getKey();
+               myRef.child(key).setValue(hs);
+
+            }
+        });
+
+        showHSBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(ScoreActivity.this,HighScoresActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+
+
 
 
 
@@ -35,18 +79,6 @@ public class ScoreActivity extends AppCompatActivity {
 
     }
 
-   // emailBTN.setOnClickListener(new View.OnClickListener() {
-     //   @Override
-       // public void onClick(View view) {
-         //   Intent intent = new Intent(Intent.ACTION_SENDTO);
-           // intent.setData(Uri.parse("mailto:")); // Only email apps handle this.
-            //intent.putExtra(Intent.EXTRA_SUBJECT, "this is the score");
-            //intent.putExtra(Intent.EXTRA_TEXT, "Body");
-            //if (intent.resolveActivity(getPackageManager()) != null) {
-            //    startActivity(intent);
-            //}
-       // }
-    //});
 
 
 }
